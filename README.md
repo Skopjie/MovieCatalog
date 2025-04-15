@@ -36,8 +36,8 @@ npm install
 
 2. **Crear los .env en la raiz de los proyectos**:
 
-En React el .env
+- En React el .env
 VITE_API_KEY=tu_api_key_de_tmdb
 
-En Next el .env.local
+- En Next el .env.local
 NEXT_PUBLIC_API_KEY=tu_api_key_de_tmdb
