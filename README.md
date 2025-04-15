@@ -32,6 +32,7 @@ Para ejecutar correctamente ambos proyectos (SPA y SSR), lo único que necesitas
 
 ```bash
 npm install
+```
 
 2. **Crear los .env en la raiz de los proyectos**:
 
