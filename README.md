@@ -24,4 +24,19 @@ Esta aplicación muestra una lista de películas populares, permite realizar bú
 - Hook personalizado para realizar peticiones fetch a la API de películas.
 - Archivo de utilidades que centraliza las rutas necesarias para realizar llamadas a la API de TMDb.
 
+## Configuración mínima necesaria
 
+Para ejecutar correctamente ambos proyectos (SPA y SSR), lo único que necesitas hacer es:
+
+1. **Instalar las dependencias** en cada uno de los proyectos:
+
+```bash
+npm install
+
+2. **Crear los .env en la raiz de los proyectos**:
+
+En React el .env
+VITE_API_KEY=tu_api_key_de_tmdb
+
+En Next el .env.local
+NEXT_PUBLIC_API_KEY=tu_api_key_de_tmdb
